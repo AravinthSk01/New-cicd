@@ -24,7 +24,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: spring-backend
+    container_name: pipe-backend
     depends_on:
       mysql-db:
         condition: service_healthy
